@@ -6,7 +6,7 @@
                 if (!("restrict" in settings)) settings.restrict = false
                 if (!("restartDB" in settings)) settings.restartDB = 0
                 if (!("status" in settings)) settings.status = 0
-
+//nice
 
   if (opts["queque"] && m.text && !(isMods || isPrems)) {
             let queque = this.msgqueque,
