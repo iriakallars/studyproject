@@ -20,4 +20,11 @@
         }
          if (process.env.MODE && process.env.MODE.toLowerCase() === 'private' && !(isROwner || isOwner))
           return;
+//here
+              
+ if (m.isBaileys)
+            return
+        m.exp += Math.ceil(Math.random() * 10)
 
+        let usedPrefix
+        let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
